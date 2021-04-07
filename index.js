@@ -4,6 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send('Prueba Exitosa');
+    console.log(req);
 });
 
 app.listen(8000, ()=> {
